@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/css.css" />
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/jquery.devrama.slider-0.9.4.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#my-slide').DrSlider({
+                'showProgress': false,
+                'userCSS': true
+            });
+        });
+    </script>
+
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <table id="nav" frame="void">
+            <tr>
+                <td>
+                <p>LAYOUT</p>
+                </td>
+
+                <td>
+                    <ul>
+                        <li><a class="panel" href="#">html</a></li>
+                        <li><a class="panel" href="#">css</a></li>
+                        <li><a class="panel" href="#">javascript</a></li>
+                    </ul>
+                </td>
+
+                <td>
+                    <a class="button" type="submit">ENTER</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div id="my-slide">
+        <div data-lazy-background="images/img.jpg">
+            <p>Monetize <br>
+                your skill now!</p>
+            <a class="button" type="submit">GO!</a>
+        </div>
+        <div data-lazy-background="images/img.jpg">
+            <p>Monetize <br>
+                your skill now!</p>
+            <a class="button" type="submit">GO!</a>
+        </div>
+        <div data-lazy-background="images/img.jpg">
+            <p>Monetize <br>
+                your skill now!</p>
+            <a class="button" type="submit">GO!</a>
+        </div>
+        <div data-lazy-background="images/img.jpg">
+            <p>Monetize <br>
+                your skill now!</p>
+            <a class="button" type="submit">GO!</a>
+        </div>
+        <div data-lazy-background="images/img.jpg">
+            <p>Monetize <br>
+                your skill now!</p>
+            <a class="button" type="submit">GO!</a>
+        </div>
+</div>
+<div class="content">
+   <div class="container">
+       <table id="content_table">
+           <tr>
+               <td>
+                   <h2>Something about me</h2>
+                   <p>Artem Abramskyy<br>
+                       Date of birth: 22.11.1993<br>
+                       Kyiv, Ukraine<br>
+                       M: +38(068)5991659<br>
+                       Email: telabrams@gmail.com</p>
+                   <h3>Education</h3>
+                   <h4>KNEU Kyiv College of Information Systems and Technologies 2009-2013.</h4>
+                   <p>Radio engineering - junior specialists</p>
+                   <h4>National aviation university</h4>
+                   <p>•	Bachelor 2015 - avionics systems<br>
+                       • Magistracy: System Television and Radio
+                   </p>
+               </td>
+               <td>
+                    <img src="images/my_photo.jpg" width="auto" height="350px">
+               </td>
+           </tr>
+       </table>
+       <div id="content_footer">
+           <div class="form">
+               <p>Register</p>
+               <form>
+                   <div class="form_group">
+                       <input id="word_field_1" required name="email" type="email" placeholder="Email" />
+                       <input id="word_field_2" required name="password" type="password" placeholder="Password" />
+                       <select>
+                           <option>Country</option>
+                           <option>Ukraine</option>
+                           <option>Italy</option>
+                           <option>Poland</option>
+                           <option>USA</option>
+                           <option>Canada</option>
+                           <option>Germany</option>
+                       </select>
+                   </div>
+               </form>
+           </div>
+       </div>
+   </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <p id="footer_text">© 2016 Layout</p>
+    </div>
+</div>
+</body>
+</html>
